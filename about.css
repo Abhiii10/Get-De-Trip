@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+  
+  
+  }
+  body{
+    background: linear-gradient(180deg, #6F7DFB 100%, #26308C 100%);
+  }
+  
+  .main{
+    width: 100% ;
+    background:url(images/home.png);
+    background-position: center;
+    background-size: cover;
+    height: 593px;
+  }
+  .wow1{
+    width: 100% ;
+  }
+  .hello{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 5px;
+    position: absolute;
+    left: 453px;
+    top: 78px;
+    margin-left: 20%;
+    margin-right: 25%;
+    background: #FFFFFF;
+    border-radius: 25px;
+    font-weight:40;
+    font-size: 25px;
+    
+    
+    
+  }
+
+
+  
+  .main{
+    width: 100% ;
+    background:url(images/home.png);
+    background-position: center;
+    background-size: cover;
+    height: 593px;
+  }
+  nav{
+    position: absolute;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 25px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .content1{
+    position: absolute;
+    width: 1207.31px;
+    height: 40px;
+    left: 3px;
+    top: 295.87px;
+    
+    font-family: 'Salsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 40px;
+    /* identical to box height, or 50% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    transform: rotate(-0.94deg);
+    
+
+  }
+
+  .text{
+    background-color: white;
+    width: 90%;
+    border-radius: 35px;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:90px;
+  
+   
+
+  }
+  .connect.span{
+    padding-bottom: 50px;
+  } 
+
+
+
+  .text p{
+    font-family: 'Salsa';
+    padding: 20px 20px 20px  20px ;
+    text-align: center;
+    font-size: 25px;
+  }
+  .text1{
+    background-color: white;
+    width: 30%;
+    border-radius: 35px;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 260px;
+  
+   
+
+  }
+  .text1 p{
+    font-family: 'Salsa';
+    padding: 5px 5px 5px  5px ;
+    text-align: center;
+    font-size: 25px;
+  }
+  .text1 h5{
+    padding-left:40% ;
+  }
+  .wow22{
+    position: absolute;
+    width: 656px;
+    height: 265px;
+    left: 700px;
+    top: 340px;
+   
+  
+  }
+  
+  .social .logo252 a{
+    align-items: baseline;
+  }
+  .nav1{
+    padding-top: 500px;
+    padding-left: 60px;
+    font-size: 25px;
+  
+  }
+  .face{
+     padding-left: 200px;
+     padding-top: 253px;
+  }
+  .connect{
+    color:#fff;
+  }
+
+
+
+     .footer{
+      position: absolute;
+      width: 200%;
+      height: 59px;
+      left: -1px;
+      top: 655px;
+      background: linear-gradient(180deg, #4554df 100%, #717ffe 50%);
+    } 
+    .p1{
+      position: absolute;
+      width: 1203.12px;
+      height: 27.05px;
+      left: 0px;
+    
+      padding-left: 10%;
+     
+      font-family: 'Salsa';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23px;
+      line-height: 28px;
+      text-align: center;
+    
+      color: #FFFFFF;
+    
+    }
+   .p2{
+      
+        position: absolute;
+        width: 1021.52px;
+        height: 21px;
+        padding-left: 10%;
+        
+        font-family: 'Salsa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        text-align: center;
+        letter-spacing: 0.15em;
+        color: #000000;
+    }
+
+
+
+
+
+
+    @media(max-width:500px){
+      .column {
+        width: 100%;
+      }
+    
+      header #toggler:checked ~ .navbar{
+        clip-path:polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    
+    header .navbar a{
+        margin:1.5rem;
+        padding:1.5rem;
+        background:#fff;
+        border:.1rem solid rgba(0,0,0,.1);
+        display: block;
+        color: #4C4C4C;
+    }
+    .menu .logo {
+      height: 30px;
+      width: 180px;
+    }
+    
+    
+    .menu ul{
+      display: inline-flex;
+    }
+    .menu ul li{
+      list-style: none;
+      margin-left: 7px;
+    }
+    .menu ul li:first-child{
+      margin-left: 0px;
+    }
+    .menu ul li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 8px;
+      font-weight: 500;
+      padding: 1px 5px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    .hello{
+      display:block;
+      /* flex-direction: row; */
+      align-items: flex-start;
+      margin-left: 13%;
+      gap: 10px;
+      padding: 5px;
+      font-size: 30px;
+      position: absolute;
+      font-weight: 100;
+      left: 100px;
+      top: 75px;
+      background: #FFFFFF;
+      border-radius: 25px;
+      width: auto;
+      }
+      .text1{
+        background-color: white;
+        width: 90%;
+        height: auto;
+        border-radius: 35px;
+        position: absolute;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 250px;
+    
+      }
+      .text p{
+        font-family: 'Salsa';
+        padding: 20px 20px 20px  20px ;
+        text-align: center;
+        font-size: 15px;
+        
+      }
+      .text1 p{
+        font-family: 'Salsa';
+        /* padding: 1px 1px 1px  1px ; */
+        text-align: center;
+        font-size: 15px;
+
+      }
+      .text1 h5{
+        padding-left:40% ;
+        font-size: 8px;
+        margin-left: 10px;
+      }
+      
+      .social .logo252 a{
+        align-items: baseline;
+      }
+      .nav1{
+        padding-top: 500px;
+        padding-left: 60px;
+        font-size: 25px;
+      
+      }
+      .face{
+      padding-left: 200px;
+      padding-top: 253px;
+      }
+      .connect{
+        color:#fff
+      }
+          .wow22{
+            position: absolute;
+            width: 400px;
+            height: 200px;
+            left: 50px;
+            top: 480px;
+          }
+          
+          .social .logo252 a{
+            align-items: baseline;
+            
+          }
+          .nav1{
+            padding-top: 500px;
+            padding-left: 60px;
+            font-size: 25px;
+          
+          }
+          .connect{
+            color:#fff
+
+            
+          }
+          .footer{
+            position: absolute;
+            width: 100%;
+            height: 35px;
+            left: -1px;
+            top: 800px;
+            background: linear-gradient(180deg, #4554df 100%, #717ffe 50%);
+            } 
+            .p1{
+            position: absolute;
+            width: 450px;
+            height: 15.05px;
+            left: 0px;
+            
+            padding-left: 0%;
+            
+            font-family: 'Salsa';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 15px;
+            text-align: center;
+            
+            color: #FFFFFF;
+            
+            }
+            .p2{
+            
+              position: absolute;
+              width: 450px;
+              height: 21px;
+              padding-left: 0%;
+              
+              font-family: 'Salsa';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 9px;
+              line-height: 21px;
+              text-align: center;
+              letter-spacing: 0.15em;
+              color: #000000;
+            }
+            .logo252{
+             margin-top:160px;
+             
+            }
+            
+    
+    }
+    
